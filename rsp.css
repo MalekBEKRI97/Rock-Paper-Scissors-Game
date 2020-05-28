@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	color:white;
+}
+body{
+	background-image: url("b.jpg");
+	font-family: 'Chewy', cursive;
+}
+h1{
+	text-align: center;	
+	padding:20px;
+	font-size: 400%;
+}
+p{
+	text-align: center;	
+	padding:20px;
+	font-size: 40px;	
+}
+.board{
+	border: 7px white solid;
+	width:200px;
+	border-radius :20px ;
+	margin: 20px auto 0px;
+	font-size: 30px;
+	padding:15px 20px;
+	text-align: center;
+	position: relative;
+}
+.who{
+	position:absolute;
+	top:17px;
+}
+#player{
+	left:-100px;
+}
+#computer{
+	right:-135px;
+}
+.choice{
+	position: absolute;
+	top:300px;
+
+}
+#r{
+	left:100px;
+}
+#p{
+	left:540px;
+	top:350px;
+}
+#s{
+	right:100px;	
+}
+img:hover{
+	cursor: pointer; 
+}
+.green{
+	border: 3px green solid;
+	border-radius :30px ;
+	background: green;
+}
+.red{
+	border: 3px #e50909 solid;
+	border-radius :30px ;
+	background: #e50909;
+}
+.yellow{
+	border: 3px #ffd400 solid;
+	border-radius :30px ;
+	background: #ffd400;
+}
